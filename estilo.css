@@ -29,22 +29,3 @@ header>h1 {
         width: 8em;
         margin-top: -2.5em;
     }
-
-    body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        /* Isso garante que o contêiner ocupe toda a altura da tela */
-    }
-
-    .conteudo {
-        text-align: center;
-        /* Opcional: centralizar o texto dentro do contêiner */
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-    }
-
-    </style>
