@@ -1,36 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&amp;display=swap&#39;');
 
-p {
-    color: rgb(7, 7, 7);
+* {
+    padding: 0%;
+    margin: 0%;
     font-family: 'Inter', sans-serif;
 }
 
-header> {
-    background-color: black;
-    font-family: 'Inter', sans-serif;
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+
 }
 
-header>h1 {
-    color: rgb(1, 1, 1);
-    min-height: 120px;
-    text-align: justify;
-    padding-top: 20px;
-    font-size: 50px;
-    font-family: 'Inter', sans-serif;
-}
-
-header>#menu {
-    position: center;
-    right: 0;
-    top: 50%;
-    width: 8em;
-    margin-top: -2.5em;
-}
-
-body {
+.navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-between;
+    padding: 1.5em 6em;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: none;
 }
