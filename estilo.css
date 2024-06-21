@@ -51,7 +51,12 @@ header {
 }
 
 body {
-    text-align: center;
+    text-align: justify;
     line-height: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
+body>h2 {
+    text-align: center;
 }
