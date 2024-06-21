@@ -49,3 +49,9 @@ header {
     font-size: 1em;
     font-weight: 500;
 }
+
+body {
+    text-align: center;
+    line-height: 2;
+
+}
