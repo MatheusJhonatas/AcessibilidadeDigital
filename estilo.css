@@ -58,7 +58,7 @@ body {
 }
 
 
-body>h2 {
+section>h2 {
     line-height: 4;
     text-align: center;
 }
